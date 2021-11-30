@@ -40,7 +40,7 @@ platforms() {
 		# There is no linux/arm/v7 Alpine image for openHAB 3 because the openjdk11 package is unavailable for this architecture
 		echo "linux/amd64,linux/arm64"
 	else
-		echo "linux/amd64,linux/arm64,linux/arm/v7"
+		echo "linux/amd64,linux/arm64,linux/arm/v7,limux/arm64/v8"
 	fi
 }
 
